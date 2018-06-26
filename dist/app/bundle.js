@@ -92,7 +92,7 @@
 	    _this.state = { videos: [] };
 	
 	    (0, _youtubeApiSearch2.default)({
-	      key: API_KEY, term: 'Surfboard' }, function (videos) {
+	      key: API_KEY, term: 'surf' }, function (videos) {
 	      _this.setState({ videos: videos });
 	    });
 	    return _this;
@@ -23585,7 +23585,44 @@
   \**************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _vedio_list_item = __webpack_require__(/*! ./vedio_list_item */ 200);
+	
+	var _vedio_list_item2 = _interopRequireDefault(_vedio_list_item);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var videoList = function videoList(props) {
+	    var videoItems = props.videos.map(function (video) {
+	        return _react2.default.createElement(_vedio_list_item2.default, { video: video });
+	    });
+	
+	    return _react2.default.createElement(
+	        'ul',
+	        { className: 'col-md-4 list-group' },
+	        videoItems
+	    );
+	};
+	
+	exports.default = videoList;
+
+/***/ }),
+/* 200 */
+/*!*******************************************!*\
+  !*** ./src/components/vedio_list_item.js ***!
+  \*******************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
@@ -23597,15 +23634,15 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var videoList = function videoList(props) {
+	var VedioListItem = function VedioListItem(props) {
 	    return _react2.default.createElement(
-	        "ul",
-	        { className: "col-md-4 list-group" },
-	        props.vedios.length
+	        'li',
+	        null,
+	        'Video'
 	    );
 	};
 	
-	exports.default = videoList;
+	exports.default = VedioListItem;
 
 /***/ })
 /******/ ]);
