@@ -6,8 +6,8 @@ const VedioListItem = (props) => {
     //console.log(video);
     const OnVideoSelect = props.OnVideoClick;
     const imgURL = video.snippet.thumbnails.default.url;
-    return ( 
-            <li onClick={() => OnVideoSelect(video)}  className="list-group-item">
+    return (
+            <li onClick={() => OnVideoSelect(video)}  className="list-group">
                 <div className="video-list media">
                     <div className="media-right">
                         <img className="media-object" src={imgURL}/>

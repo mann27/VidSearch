@@ -6,20 +6,20 @@ const videoList = (props) => {
 
     const VideoSelect = props.onVideoSelect;
     const videoItems = props.videos.map(  (video) => {
-        return ( <VedioListItem 
+        return ( <VedioListItem
         OnVideoClick = { VideoSelect }
-        key={video.etag} 
+        key={video.etag}
         video={video}/> );
     }
     );
 
     return (
         <div className="vedio-list">
-            <ul className="col-md-4 list-group">
+            <ul>
                 {videoItems}
             </ul>
             </div>
     );
 }
 
-export default videoList; 
+export default videoList;
