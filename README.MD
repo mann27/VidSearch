@@ -1,6 +1,6 @@
   # About the app
     
-    SEARCHING OF VIDEOS FROM YOUTUBE
+    SEARCHING OF VIDEOS FROM YOUTUBE USING YOUTUBE API AND REACT JS
   
   # Run the app using npm in localhost.
     
