@@ -1,6 +1,6 @@
   # About the app
     
-    STAY TUNED..!
+    SEARCHING OF VIDEOS FROM YOUTUBE
   
   # Run the app using npm in localhost.
     
