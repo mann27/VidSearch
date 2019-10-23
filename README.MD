@@ -4,7 +4,7 @@
   
   # Run the app using npm in localhost.
     
-    How to start the server (LocalHost) 
+    How to start the server (localHost) 
     ....clone the repository!!
     1) Go to root directory in terminal.
     2) npm install ( for the first time installation only )
