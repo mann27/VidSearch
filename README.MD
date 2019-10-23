@@ -6,10 +6,10 @@
     
     How to start the server (localHost) 
     ....clone the repository!!
-    1) Go to root directory in terminal.
-    2) npm install ( for the first time installation only )
-    3) npm start (to run the server)
-    4) Go to the web browser and open "loaclhost:8080"
+    1) migrate to the root directory in terminal.
+    2) npm install ( installs the node npm packages )
+    3) npm start (to run the server at local host )
+    4) Go to any web browser and open "loaclhost:8080"
     
   # prerequisite
   
