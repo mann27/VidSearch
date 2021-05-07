@@ -14,7 +14,7 @@
   "author": "Mann Shah",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "youtube-api-search": "0.0.5"
